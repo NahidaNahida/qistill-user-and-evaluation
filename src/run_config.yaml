@@ -1,0 +1,7 @@
+llm:
+  - qwen/qwen3.5-122b-a10b
+  - qwen/qwen3.5-35b-a3b
+  - google/gemma-4-31b-it
+  - moonshotai/kimi-k2.7-code
+random_seeds: [42, 888, 2026]
+task_file: ["Quanbench117.jsonl"]

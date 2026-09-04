@@ -1,0 +1,39 @@
+# Python bytecode and local tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments and environment-manager metadata
+.venv/
+venv/
+env/
+*.egg-info/
+.conda/
+
+# Generated benchmark artifacts and temporary test directories
+data/generated_code/
+data/runtime/
+.pytest-tmp*/
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+.project
+.pydevproject
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+*.token
+
+# Agent and tool runtime artifacts
+.codex
